@@ -1,0 +1,83 @@
+*{  box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(158, 158, 158);
+    font-family: fantasy;
+}
+#pesquisa{
+    background-color: rgb(27, 27, 27);
+    padding: 1%;
+    display: flex;
+    border: 2px solid rgb(214, 8, 8);
+}
+#pesquisa div {
+    border: 2px solid rgb(214, 8, 8);
+    margin-left: auto;
+}
+
+/* CABEÇA DA PAGINA */
+
+header {
+    background-color: rgb(51, 51, 51);
+}
+
+header div{
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header div img{
+    width: 5vw;
+    height: 10vh; 
+    margin: 0px 0px 0px 2%;
+}
+
+header div nav ul{
+    list-style: none;
+    display: flex;
+
+}
+
+header li{
+    margin: 0 1vw 0 1vw;
+}
+
+header li a {
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+header li a:hover{
+    text-decoration: underline;
+    color: rgb(180, 164, 47);
+}
+
+/* MEIO DA PAGINA */
+
+.foto {
+    background-image: url(imagens/3810369.jpg);
+    background-size: cover;
+    background-position:center ;
+    width: 100vw;
+    height: 60vh;
+    font-size: 2vw;
+    color: aquamarine;
+}
+
+.foto div {
+    width: 60vw;
+    height: 10vh;
+    padding: 3vw 40vh;
+}
+
+.foto div h1{
+    color: rgb(212, 144, 41);
+}
+
+footer{
+    background-color: rgb(6, 5, 48);
+}
